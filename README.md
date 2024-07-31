@@ -49,9 +49,9 @@ Sigue estos pasos para instalar y configurar el entorno de desarrollo:
 
 ## Screenshots de funcionamiento previo
 ![Screnshot 1](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img1.png)
-![Screnshot 2](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag2.png)
-![Screnshot 3](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag3.png)
-![Screnshot 4](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag4.png)
-![Screnshot 5](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag5.png)
-![Screnshot 6](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag6.png)
-![Screnshot 7](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/imag7.png)
+![Screnshot 2](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img2.png)
+![Screnshot 3](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img3.png)
+![Screnshot 4](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img4.png)
+![Screnshot 5](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img5.png)
+![Screnshot 6](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img6.png)
+![Screnshot 7](https://github.com/Luis-Rayas/API-Rest-example/blob/main/img_examples/img7.png)
