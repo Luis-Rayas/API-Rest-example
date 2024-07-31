@@ -89,7 +89,7 @@ export default function NewAccount() {
                         <select
                             name="cliente_id"
                             id="cliente_id"
-                            className="form-control"
+                            className="form-select"
                             {...register("cliente_id", { required: true,  })}
                         >
                             <option value="">Seleccionar</option>

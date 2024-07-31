@@ -18,4 +18,13 @@ class AccountController extends Controller
             "data" => $account
         ]);
     }
+
+    public function getAccounts(Request $request) : JsonResponse
+    {
+        $accounts = Account::with(['client'])->get();
+        return response()->json([
+            "error" => null,
+            "data" => $accounts
+        ]);
+    }
 }

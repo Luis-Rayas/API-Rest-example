@@ -7,9 +7,10 @@ Route::prefix('cliente')->controller(App\Http\Controllers\ClientController::clas
 });
 
 Route::prefix('cuenta')->controller(App\Http\Controllers\AccountController::class)->group(function () {
+    Route::get('/','getAccounts');
     Route::post('/','createNewAccount');
 });
 
 Route::prefix('transaccion')->controller(App\Http\Controllers\TransactionController::class)->group(function () {
-    Route::get('/','');
+    Route::post('/','saveNewTransaction');
 });

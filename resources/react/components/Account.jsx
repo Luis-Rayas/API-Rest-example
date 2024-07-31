@@ -12,15 +12,16 @@ export default function Account({ account }) {
                     <span>
                         <b>Saldo: </b> {account.saldo}
                     </span>
-
-                    <span>
-                        Ult. Movimiento: 2022-01-01 00:00
+                    {account.transactions.length > 0 && (
+                        <span>
+                        Ult. Movimiento: {account.transactions[0].fecha}
                         <br />
-                        <b>Importe: </b> {account.saldo}
-                    </span>
+                        <b>Importe: </b> {account.transactions[0].monto}
+                        </span>
+                    )}
                 </div>
                 <div>
-                    <Link to={`/transaction?account_id=${account.id}`} className="btn btn-secondary btn-sm">
+                    <Link to={`/transaction?cuenta_id=${account.id}`} className="btn btn-secondary btn-sm">
                         Hacer transaccion
                     </Link>
                 </div>
